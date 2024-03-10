@@ -1,0 +1,10 @@
+# 개발 환경 설정
+    1. npm i react@latest next@latest react-dom@latest
+    2. 기본이 되는 'app' 폴더를 생성
+
+# nextJS 특징
+    1. 개발자가 프레임워크를 호출하는 것이 아닌 프레임워크가 개발자의 코드를 자동으로 인식&실행
+    2. "page.tsx" 파일로 각 웹 페이지를 랜더링 할 수 있음
+    3. app 아래의 폴더 중 "page.tsx"를 가지고 있는 폴더의 경로는 URL을 의미
+	    ex. app -> company(page.tsx 파일 보유) : localhost/ ... /company
+
